@@ -1,0 +1,29 @@
+@import "../../assets/main";
+
+.delivery-listing {
+  height: 70%;
+
+}
+
+.indicator {
+  margin-right: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: #61dafb;
+  display: inline-block;
+
+  &.delivered {
+    background-color: green;
+  }
+
+  &.undelivered {
+    background-color: red
+  }
+
+}
+
+.sticky-title {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
