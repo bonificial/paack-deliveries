@@ -1,6 +1,7 @@
 # Getting Started with the Paack Deliveries React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It also uses
+React-Bootstrap as the front end framework.
 
 ## Getting Started
 
@@ -9,27 +10,39 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 If you want to experiment with running this project in Continous Integration, you'll need
 to [fork](https://github.com/cypress-io/cypress-example-todomvc#fork-destination-box) it first.
 
-After forking this project in `Github`, run these commands:
+After pulling this project from `Github`, run these commands:
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/<your-username>/cypress-example-todomvc.git
+git clone https://github.com/bonificial/paack-deliveries.git
 ## cd into the cloned repo
-cd cypress-example-todomvc
+cd paack-deliveries
 ## install the node_modules
 npm install
 ## start the local webserver
 npm start
 ```
 
-##### The projects files organisation is quite simple:
+#### The projects files organisation is quite simple:
 
 Every Directory has an index file to centrally export the resources created in that directory. All resources are
 categorised with their purpose. For the components, every component has its own style file in it.
 
-## Available Scripts
+#### Create the Environment Variables File
+
+Create a .env file at the root folder add the following contents
+
+```bash
+REACT_APP_BASE_URL=https://60e84194673e350017c21844.mockapi.io/api
+```
+
+#### Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install project dependencies
 
 ### `npm start`
 
@@ -38,12 +51,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more
-information.
 
 ### `npm run build`
 
@@ -57,41 +64,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run cypress:open`
 
-Start
+Open the Cypress GUI to run the created tests
 
-## Learn More
+#### Features
 
-You can learn more in
-the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 🛠 Built with React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 🛠 Zero database dependencies
 
-### Code Splitting
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### 🛠 Cypress Tests Integrated
