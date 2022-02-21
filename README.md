@@ -3,8 +3,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It also uses
 React-Bootstrap as the front end framework.
 
-## Getting Started
-
 #### Clone the Repo to your Local Environment
 
 If you want to experiment with running this project in Continous Integration, you'll need
